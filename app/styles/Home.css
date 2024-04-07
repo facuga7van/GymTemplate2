@@ -1,0 +1,62 @@
+.Home-title{
+    text-align: center;
+    margin: 1rem;
+}
+.Home-title h1{
+    font-size: 2.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
+.Home-title h2{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.Home-title hr{
+    width: 60%;
+    margin: 1rem auto;
+}
+.Home-Card-BtnCont{
+    text-align: right;
+}
+.Home-Card-Button{
+    text-decoration: none;
+    border: 1px solid #ff6161;
+    background-color: transparent;
+    color: #ff6161;
+    border-radius: 5px;
+    padding: 0.5rem;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.Home-Card-Button:hover{
+    transform: scale(1.05);
+    border: 1px solid #ff6161;
+    background-color: #ff6161;
+    color: white;
+}
+
+.Card.body hr{
+    width: 60%;
+    margin: 1rem auto;
+}
+.Home-card-container .card {
+    display:flex;
+    justify-content: center;
+    margin: 2rem auto;
+  }
+
+@media (min-width: 768px) {
+    .Home-card-container {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  
+    .Home-card-container .card {
+      margin: 0 2rem;
+    }
+  }

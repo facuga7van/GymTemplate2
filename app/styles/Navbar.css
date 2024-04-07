@@ -1,0 +1,14 @@
+  .nav-link{
+    color: #e2e2e2 !important;
+  }
+  .nav-link:hover{
+    color: #ff6161 !important;
+  }
+  .custom-justify-end {
+    justify-content: flex-end !important;
+  }
+  @media (min-width: 768px) {
+    .Navbar-Container{
+      margin: 0 15rem;
+    }
+  }
