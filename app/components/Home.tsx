@@ -4,6 +4,7 @@ import Card from "./Card";
 import CardInstr from "./CardInstr";
 import useIntersection from "../hooks/useIntersection";
 import Carousel from "./Carousel";
+import SheetsData from "./Excel";
 
 export default function Home() {
   const dividerStyle = {
@@ -232,6 +233,9 @@ export default function Home() {
           />
           <CardInstr title="Juan Perez" imageSrc="man.jpg" alt="Instructor" />
         </div>
+      </div>
+      <div>
+        <SheetsData></SheetsData>
       </div>
     </>
   );

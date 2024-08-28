@@ -3,17 +3,17 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <><div style={{ filter: "drop-shadow(-3px -3px 5px rgba(0, 0, 0, 0.5))" }}>
-      <div className="grid grid-cols-3 gap-10 w-full min-h-[5rem] bg-[#1a1a1a] pt-10 shadow-xl">
-      <div className="flex flex-col">
+      <div className="pl-10 md:grid md:grid-cols-3 gap-10 w-full min-h-[5rem] bg-[#1a1a1a] pt-10 shadow-xl">
+      <div className="flex md:flex-col">
           {/* <h5 className="font-bold">Síguenos en Redes Sociales</h5> */}
           <ul className="list-none flex justify-end items-center my-5 space-x-5">
             <li>
               <a
                 href="#"
-                className=" flex items-center space-x-3 hover:text-sky-400 transition text-[#812320] md:text-gray-500 md:hover:text-[#812320]"
+                className=" flex items-center space-x-2 hover:text-sky-400 transition text-[#812320] md:text-gray-500 md:hover:text-[#812320]"
               >
                 <svg
-                  className="h-[4rem] w-[4rem]"
+                  className="h-[2rem] w-[2rem]"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -27,10 +27,10 @@ export default function Footer() {
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center space-x-3 hover:text-sky-400 transition text-[#812320] md:text-gray-500 md:hover:text-[#812320] "
+                className="flex items-center space-x-2 hover:text-sky-400 transition text-[#812320] md:text-gray-500 md:hover:text-[#812320] "
               >
                 <svg
-                  className="h-[4rem] w-[4rem]"
+                  className="h-[2rem] w-[2rem]"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -48,11 +48,11 @@ export default function Footer() {
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hiddenflex items-center space-x-3 transition "
+                className="hiddenflex items-center space-x-2 transition "
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-[3.5rem] w-[3.5rem] text-[#bf0600] md:text-gray-500 md:hover:text-[#812320]"
+                  className="h-[1.5rem] w-[1.5rem] text-[#812320] md:text-gray-500 md:hover:text-[#812320]"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -63,10 +63,10 @@ export default function Footer() {
             <li>
               <a
                 href="#"
-                className=" flex items-center space-x-3 hover:text-sky-400 transition text-[#812320] md:text-gray-500 md:hover:text-[#812320]"
+                className=" flex items-center space-x-2 hover:text-sky-400 transition text-[#812320] md:text-gray-500 md:hover:text-[#812320]"
               >
                 <svg
-                  className="h-[4rem] w-[4rem]"
+                  className="h-[2rem] w-[2rem]"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"

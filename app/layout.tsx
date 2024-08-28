@@ -24,6 +24,7 @@ export default function RootLayout({
         <div className="bg-fixed"/>
         {children}
         <Footer/> 
+        
       </body>
     </html>
   )
