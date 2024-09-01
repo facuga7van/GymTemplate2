@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Gimnasio - Inicio",
   description: "descripcion de gimnasio.",
 };
-
+console.log(process.env.NODE_ENV)
 export default function HomePage() {
   return (
     <>

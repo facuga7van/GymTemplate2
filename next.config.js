@@ -3,8 +3,8 @@
 
 const nextConfig = {
     output: 'export',
-    basePath: '/GymTemplat2',
-    assetPrefix: '/GymTemplat2/',
+    basePath: isProd ? '/GymTemplate2' : '',
+    assetPrefix: isProd ? '/GymTemplate2/' : '',
 }
 
 module.exports = nextConfig
