@@ -7,22 +7,22 @@ import { usePathname } from "next/navigation";
 
 
 const navigation = [
-  { name: "Inicio", href: "/GymTemplate3/", current: true },
-  { name: "Nosotros", href: "/GymTemplate3/about", current: false },
-  { name: "Contacto", href: "/GymTemplate3/contact", current: false },
-  { name: "FAQ", href: "/GymTemplate3/faq", current: false },
+  { name: "Inicio", href: "/GymTemplate2/", current: true },
+  { name: "Nosotros", href: "/GymTemplate2/about", current: false },
+  { name: "Contacto", href: "/GymTemplate2/contact", current: false },
+  { name: "FAQ", href: "/GymTemplate2/faq", current: false },
 ];
 
 
 
   const navigationFull = [
-    { name: "Inicio", href: "/GymTemplate3/", current: true },
-    { name: "Nosotros", href: "/GymTemplate3/about", current: false },
-    { name: "Contacto", href: "/GymTemplate3/contact", current: false },
-    { name: "FAQ", href: "/GymTemplate3/faq", current: false },
-    { name: "Musculacion", href: "/GymTemplate3/musculacion", current: false },
-    { name: "Crossfit", href: "/GymTemplate3/crossfit", current: false },
-    { name: "Spinning", href: "/GymTemplate3/spinning", current: false },
+    { name: "Inicio", href: "/GymTemplate2/", current: true },
+    { name: "Nosotros", href: "/GymTemplate2/about", current: false },
+    { name: "Contacto", href: "/GymTemplate2/contact", current: false },
+    { name: "FAQ", href: "/GymTemplate2/faq", current: false },
+    { name: "Musculacion", href: "/GymTemplate2/musculacion", current: false },
+    { name: "Crossfit", href: "/GymTemplate2/crossfit", current: false },
+    { name: "Spinning", href: "/GymTemplate2/spinning", current: false },
   ];
 
 function classNames(...classes: string[]) {
