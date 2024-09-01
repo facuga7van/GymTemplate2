@@ -155,7 +155,7 @@ export default function Example() {
                               <a
                                 href="/musculacion"
                                 className={classNames(
-                                  active ? "bg-[#3b100f] text-white" : (pathname.startsWith("/musculacion") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
+                                  active ? "bg-[#3b100f] text-white" : (pathname.startsWith("/GymTemplate2/musculacion") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
                                   "block px-4 py-2 text-sm"
                                 )}
                               >
@@ -168,7 +168,7 @@ export default function Example() {
                               <a
                               href="/crossfit"
                               className={classNames(
-                                active ? "bg-[#3b100f] text-white" : (pathname.startsWith("/crossfit") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
+                                active ? "bg-[#3b100f] text-white" : (pathname.startsWith("/GymTemplate2/crossfit") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
                                 "block px-4 py-2 text-sm"
                               )}
                             >
@@ -181,7 +181,7 @@ export default function Example() {
                               <a
                               href="/spinning"
                               className={classNames(
-                                active ? "bg-[#3b100f] text-white" : (pathname.startsWith("/spinning") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
+                                active ? "bg-[#3b100f] text-white" : (pathname.startsWith("/GymTemplate2/spinning") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
                                 "block px-4 py-2 text-sm"
                               )}
                             >
