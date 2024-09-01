@@ -3,23 +3,27 @@ import React, { useState, useEffect, useRef, Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { usePathname } from "next/navigation";
+import { useRouter } from 'next/router';
 
-const navigation = [
-  { name: "Inicio", href: "/", current: true },
-  { name: "Nosotros", href: "/about", current: false },
-  { name: "Contacto", href: "/contact", current: false },
-  { name: "FAQ", href: "/faq", current: false },
-];
+const router = useRouter();
+  const basePath = router.basePath || '';
 
-const navigationFull = [
-  { name: "Inicio", href: "/", current: true },
-  { name: "Nosotros", href: "/about", current: false },
-  { name: "Contacto", href: "/contact", current: false },
-  { name: "FAQ", href: "/faq", current: false },
-  { name: "Musculacion", href: "/musculacion", current: false },
-  { name: "Crossfit", href: "/crossfit", current: false },
-  { name: "Spinning", href: "/spinning", current: false },
-];
+  const navigation = [
+    { name: "Inicio", href: `${basePath}/`, current: true },
+    { name: "Nosotros", href: `${basePath}/about`, current: false },
+    { name: "Contacto", href: `${basePath}/contact`, current: false },
+    { name: "FAQ", href: `${basePath}/faq`, current: false },
+  ];
+
+  const navigationFull = [
+    { name: "Inicio", href: `${basePath}/`, current: true },
+    { name: "Nosotros", href: `${basePath}/about`, current: false },
+    { name: "Contacto", href: `${basePath}/contact`, current: false },
+    { name: "FAQ", href: `${basePath}/faq`, current: false },
+    { name: "Musculacion", href: `${basePath}/musculacion`, current: false },
+    { name: "Crossfit", href: `${basePath}/crossfit`, current: false },
+    { name: "Spinning", href: `${basePath}/spinning`, current: false },
+  ];
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
