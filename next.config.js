@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV = 'production'
+
 const nextConfig = {
     output: 'export',
-    basePath: '/GymTemplat2',
-    assetPrefix: '/GymTemplate2/',
+    basePath: isProd ? '/GymTemplat2' : '',
+    assetPrefix: isProd ? '/GymTemplat2/' : '',
 }
 
 module.exports = nextConfig

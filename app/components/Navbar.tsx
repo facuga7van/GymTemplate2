@@ -108,9 +108,9 @@ export default function Example() {
                         <Menu.Button className="group text-gray-300 rounded-md  px-3 text-lg font-medium all duration-300 ease-in-out ">
                           <span
                             className={classNames(
-                              pathname.startsWith("/musculacion") ||
-                                pathname.startsWith("/crossfit") ||
-                                pathname.startsWith("/spinning")
+                              pathname.startsWith("/GymTemplate2/musculacion") ||
+                                pathname.startsWith("/GymTemplate2/crossfit") ||
+                                pathname.startsWith("/GymTemplate2/spinning")
                                 ? "text-[#bf0600]"
                                 : "text-white",
                               "group flex flex-row text-center items-center px-3 text-lg font-medium hover:border-b-[5px] border-[#bf0600]  all duration-300 ease-out"
