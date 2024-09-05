@@ -7,22 +7,22 @@ import { usePathname } from "next/navigation";
 
 
 const navigation = [
-  { name: "Inicio", href: "/GymTemplate2/", current: true },
-  { name: "Nosotros", href: "/GymTemplate2/about", current: false },
-  { name: "Contacto", href: "/GymTemplate2/contact", current: false },
-  { name: "FAQ", href: "/GymTemplate2/faq", current: false },
+  { name: "Inicio", href: "/", current: true },
+  // { name: "Nosotros", href: "/GymTemplate2/about", current: false },
+  // { name: "Contacto", href: "/GymTemplate2/contact", current: false },
+  // { name: "FAQ", href: "/GymTemplate2/faq", current: false },
 ];
 
 
 
   const navigationFull = [
-    { name: "Inicio", href: "/GymTemplate2/", current: true },
-    { name: "Nosotros", href: "/GymTemplate2/about", current: false },
-    { name: "Contacto", href: "/GymTemplate2/contact", current: false },
-    { name: "FAQ", href: "/GymTemplate2/faq", current: false },
-    { name: "Musculacion", href: "/GymTemplate2/musculacion", current: false },
-    { name: "Crossfit", href: "/GymTemplate2/crossfit", current: false },
-    { name: "Spinning", href: "/GymTemplate2/spinning", current: false },
+    { name: "Inicio", href: "/", current: true },
+    // { name: "Nosotros", href: "about", current: false },
+    // { name: "Contacto", href: "contact", current: false },
+    // { name: "FAQ", href: "faq", current: false },
+    { name: "Musculacion", href: "musculacion", current: false },
+    { name: "Crossfit", href: "crossfit", current: false },
+    { name: "Spinning", href: "spinning", current: false },
   ];
 
 function classNames(...classes: string[]) {
@@ -108,9 +108,9 @@ export default function Example() {
                         <Menu.Button className="group text-gray-300 rounded-md  px-3 text-lg font-medium all duration-300 ease-in-out ">
                           <span
                             className={classNames(
-                              pathname.startsWith("/GymTemplate2/musculacion") ||
-                                pathname.startsWith("/GymTemplate2/crossfit") ||
-                                pathname.startsWith("/GymTemplate2/spinning")
+                              pathname.startsWith("musculacion") ||
+                                pathname.startsWith("crossfit") ||
+                                pathname.startsWith("spinning")
                                 ? "text-[#bf0600]"
                                 : "text-white",
                               "group flex flex-row text-center items-center px-3 text-lg font-medium hover:border-b-[5px] border-[#bf0600]  all duration-300 ease-out"
@@ -155,7 +155,7 @@ export default function Example() {
                               <a
                                 href="/musculacion"
                                 className={classNames(
-                                  active ? "bg-[#3b100f] text-white" : (pathname.startsWith("/GymTemplate2/musculacion") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
+                                  active ? "bg-[#3b100f] text-white" : (pathname.startsWith("musculacion") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
                                   "block px-4 py-2 text-sm"
                                 )}
                               >
@@ -168,7 +168,7 @@ export default function Example() {
                               <a
                               href="/crossfit"
                               className={classNames(
-                                active ? "bg-[#3b100f] text-white" : (pathname.startsWith("/GymTemplate2/crossfit") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
+                                active ? "bg-[#3b100f] text-white" : (pathname.startsWith("crossfit") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
                                 "block px-4 py-2 text-sm"
                               )}
                             >
@@ -181,7 +181,7 @@ export default function Example() {
                               <a
                               href="/spinning"
                               className={classNames(
-                                active ? "bg-[#3b100f] text-white" : (pathname.startsWith("/GymTemplate2/spinning") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
+                                active ? "bg-[#3b100f] text-white" : (pathname.startsWith("spinning") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
                                 "block px-4 py-2 text-sm"
                               )}
                             >
