@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 
 
 const navigation = [
-  { name: "Inicio", href: "/", current: true },
+  { name: "Inicio", href: "/GymTemplate2", current: true },
   // { name: "Nosotros", href: "/GymTemplate2/about", current: false },
   // { name: "Contacto", href: "/GymTemplate2/contact", current: false },
   // { name: "FAQ", href: "/GymTemplate2/faq", current: false },
@@ -16,7 +16,7 @@ const navigation = [
 
 
   const navigationFull = [
-    { name: "Inicio", href: "/", current: true },
+    { name: "Inicio", href: "/GymTemplate2", current: true },
     // { name: "Nosotros", href: "about", current: false },
     // { name: "Contacto", href: "contact", current: false },
     // { name: "FAQ", href: "faq", current: false },
@@ -153,7 +153,7 @@ export default function Example() {
                           <Menu.Item>
                             {({ active }) => (
                               <a
-                                href="/musculacion"
+                                href="musculacion"
                                 className={classNames(
                                   active ? "bg-[#3b100f] text-white" : (pathname.startsWith("musculacion") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
                                   "block px-4 py-2 text-sm"
@@ -166,7 +166,7 @@ export default function Example() {
                           <Menu.Item>
                             {({ active }) => (
                               <a
-                              href="/crossfit"
+                              href="crossfit"
                               className={classNames(
                                 active ? "bg-[#3b100f] text-white" : (pathname.startsWith("crossfit") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
                                 "block px-4 py-2 text-sm"
@@ -179,7 +179,7 @@ export default function Example() {
                           <Menu.Item>
                             {({ active }) => (
                               <a
-                              href="/spinning"
+                              href="spinning"
                               className={classNames(
                                 active ? "bg-[#3b100f] text-white" : (pathname.startsWith("spinning") ? "bg-[rgba(59,16,15,0.5)] text-white" : "text-gray-300"),
                                 "block px-4 py-2 text-sm"
